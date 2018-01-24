@@ -1,0 +1,10 @@
+infile dictionary {
+* data on name, sex, and age
+	str16	name	"Name"
+		sex:sexlbl	"Sex"
+	int	age	"Age"
+}
+"Arthur Doyle" Male 22
+"Mary Hope" Female 37
+"Guy Fawkes" Male 48
+"Karen Cain" Female 25

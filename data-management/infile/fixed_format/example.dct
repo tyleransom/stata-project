@@ -1,0 +1,13 @@
+infile dictionary {
+				first	%3f
+			double	second	%2.1f
+				third	%6f
+	_skip(2)	str4	fourth	%4s
+	_column(21)		sixth	%4.1f
+	_column(18)		fifth	%2f
+}
+1.2125.7e+252abcd 1 .232
+1.3135.7   52efgh2    5
+1.41457    52abcd 3 100.
+1.5155.7D+252efgh04 1.7
+16 16 .57  52abcd 5 1.71

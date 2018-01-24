@@ -1,0 +1,9 @@
+infile dictionary {
+* data on employees
+	str20	name	"Name"
+		age	"Age"
+	int	sex	"Sex coded 0 male 1 female"
+}
+"Lisa Gilmore" 25 1
+Branton 32 1
+'Bill Ross' 27 0

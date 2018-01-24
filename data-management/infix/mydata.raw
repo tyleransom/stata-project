@@ -1,0 +1,13 @@
+id income educ / sex age / rcode, answers to questions 1-5
+1024 25000 HS
+     Male   28
+     1 1 9 5 0 3
+1025 27000 C
+     Female 24
+     0 2 2 1 1 3
+1035 26000 HS
+     Male   32
+     1 1 0 3 2 1
+1036 25000 C
+    Female 25
+    1 3 1 2 3 2

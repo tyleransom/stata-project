@@ -1,0 +1,8 @@
+infile dictionary using "example6.raw" {
+	_firstline(5)
+			byte	a
+			byte	b
+	_column(17)	byte	c	%1f
+			str1	gender
+	_column(33)	str15	name	%15s
+}

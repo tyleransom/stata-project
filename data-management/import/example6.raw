@@ -1,0 +1,8 @@
+line 1 : a heading
+There are a total of 4 lines of heading.
+The next line contains a useful heading:
+----+----1----+----2----+----3----+----4----+-
+1       0       1       m       John Smith
+0       0       1       m       Paul Lin
+0       1       0       f       Jan Doe
+0       0               f       Julie McDonald

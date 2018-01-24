@@ -1,0 +1,8 @@
+infile dictionary using "mydata.raw" {
+	_first(4)
+	int	id	"Identification Number"
+		income	"Annual income"
+	str2	educ	"Highest educ level"
+	str6	sex
+	byte	age
+}

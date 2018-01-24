@@ -1,0 +1,10 @@
+infile dictionary using "example7.raw" {
+_firstline(2)
+		byte	a		"Question 1"
+		byte	b		"Question 2"
+		byte	c		"Question 3"
+_line(2)
+		str1	gender		"Gender of subject"
+_line(3)
+		str15	name	%15s
+}

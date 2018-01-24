@@ -1,0 +1,7 @@
+infile dictionary using "example4.raw" {
+	byte 	a
+	byte 	b
+	byte 	c
+	str15 	name
+	str1 	gender
+}

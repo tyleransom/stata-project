@@ -1,0 +1,9 @@
+infix dictionary {
+	acc_rate	1-4
+	spdlimit	6-7
+	acc_pts	9-11
+}
+4.58 55 .46
+2.86 60 4.4
+1.61    2.2
+3.02 60 4.7

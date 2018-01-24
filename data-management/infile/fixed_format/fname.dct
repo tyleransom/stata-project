@@ -1,0 +1,22 @@
+infile dictionary using "fname.txt" {
+*
+* Example reading in data where observations extend across more
+* than one line. The next line tells infile there are 2 lines/obs:
+*
+_lines(2)
+*
+	str50	name	%32s	"Name of respondent"
+_column(33)	long	id	%5f	"Person id"
+_skip(2)	str50	addr	%41s	"Address"
+_line(2)
+_column(1) byte q1 %1f "Question 1"
+	byte	q2	%1f	"Question 2"
+	byte	q3	%1f	"Question 3"
+	byte	q4	%1f	"Question 4"
+	byte	q5	%1f	"Question 5"
+	byte	q6	%1f	"Question 6"
+	byte	q7	%1f	"Question 7"
+	byte	q8	%1f	"Question 8"
+	byte	q9	%1f	"Question 9"
+	byte	q10	%1f	"Question 10"
+}

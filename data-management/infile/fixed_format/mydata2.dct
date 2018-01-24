@@ -1,0 +1,11 @@
+infile dictionary using "mydata2.raw" {
+	_first(2) 			* Begin reading on line 2
+	_lines(3) 			* Each observation takes 3 lines.
+	int id "Identification Number"	* Since _line is not specified, Stata
+	income "Annual income"		* assumes that it is 1.
+	str2 educ "Highest educ level"
+	_line(2)			* Go to line 2 of the observation.
+	str6 sex			* (values for sex are located on line 2)
+	_line(3)			* Go to line 3 of the observation.
+	int age				* (values for age are located on line 3)
+}

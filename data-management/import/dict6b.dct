@@ -1,0 +1,8 @@
+infix dictionary using "example6.raw" {
+5 first
+		a	1
+		b	9
+		c	17
+	str	gender	25
+	str	name	33-46
+}

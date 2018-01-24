@@ -1,0 +1,11 @@
+infix dictionary using "mydata.raw" {
+	2 first
+	3 lines
+	1:	id       1-4
+		income   6-10
+		str educ 12-13
+	2:	str sex  6-11
+		int age	 13-14
+	3:	rcode    6
+		q1-q5    7-16
+}

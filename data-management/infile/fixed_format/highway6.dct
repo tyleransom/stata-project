@@ -1,0 +1,8 @@
+infile dictionary using "highway6.raw" {
+* This dictionary reads the file highway.raw. If the
+* file were called highway.txt, the first line would
+* read "dictionary using highway.txt"
+	acc_rate	"Acc. Rate/Million Miles"
+	spdlimit	"Speed Limit (mph)"
+	acc_pts	"Access Pts/Mile"
+}

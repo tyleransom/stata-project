@@ -1,0 +1,11 @@
+infile dictionary {
+* This is a comment and will be ignored by Stata
+* You might type the source of the data here.
+	acc_rate	"Acc. Rate/Million Miles"
+	spdlimit	"Speed Limit (mph)"
+	acc_pts	"Access Pts/Mile"
+}
+4.58 55 4.6
+2.86 60 4.4
+1.61 . 2.2
+3.02 60 4.7

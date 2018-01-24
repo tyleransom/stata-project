@@ -1,0 +1,11 @@
+infix dictionary using mydata {
+	2 first
+	3 lines
+		str sex  2: 6-11
+		rcode    3: 6
+		str educ 1:12-13
+		age      2:13-14
+		id       1: 1-4
+		q1-q5    3: 7-16
+		income   1: 6-10
+}

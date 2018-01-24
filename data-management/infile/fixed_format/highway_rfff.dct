@@ -1,0 +1,5 @@
+infile dictionary using "highway_rfff.raw" {
+	acc_rate	%4f	"Acc. Rate/Million Miles"
+	spdlimit	%2f	"Speed Limit (mph)"
+	acc_pts	%3f	"Access Pts/Mile
+}
